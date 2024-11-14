@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="nunito-sans.regular.ttf">
+            <string>NunitoSans-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Pre Approval ReqVC-->
+        <scene sceneID="wbJ-uX-HEY">
+            <objects>
+                <viewController storyboardIdentifier="PreApprovalReqVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1gW-Kz-uRI" customClass="PreApprovalReqVC" customModule="MyOutdoorAgent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="czL-fW-4zv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uE8-zp-TaJ" customClass="CustomNavBar" customModule="MyOutdoorAgent" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="UJB-zs-gwH"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="w1h-Zr-xZ9">
+                                <rect key="frame" x="20" y="114" width="374" height="738"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="10" id="m9B-VD-2R5">
+                                    <size key="itemSize" width="160" height="240"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PreApprovalCVCell" id="wVj-QR-V9H" customClass="SearchCollVCell" customModule="MyOutdoorAgent" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="240"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="240"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                        <size key="customSize" width="160" height="240"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have not requested any Pre-Approvals." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIx-mw-d9F">
+                                <rect key="frame" x="43" y="436.5" width="328" height="23.5"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="22"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="q8k-Nk-qFf"/>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SIx-mw-d9F" firstAttribute="centerX" secondItem="czL-fW-4zv" secondAttribute="centerX" id="F0H-xE-RI8"/>
+                            <constraint firstItem="uE8-zp-TaJ" firstAttribute="leading" secondItem="q8k-Nk-qFf" secondAttribute="leading" id="LRy-WV-sWd"/>
+                            <constraint firstItem="w1h-Zr-xZ9" firstAttribute="leading" secondItem="q8k-Nk-qFf" secondAttribute="leading" constant="20" id="LpK-Ve-sU8"/>
+                            <constraint firstItem="q8k-Nk-qFf" firstAttribute="trailing" secondItem="w1h-Zr-xZ9" secondAttribute="trailing" constant="20" id="OAl-4O-wLw"/>
+                            <constraint firstItem="w1h-Zr-xZ9" firstAttribute="top" secondItem="uE8-zp-TaJ" secondAttribute="bottom" constant="20" id="SAb-cA-Ckp"/>
+                            <constraint firstItem="uE8-zp-TaJ" firstAttribute="top" secondItem="q8k-Nk-qFf" secondAttribute="top" id="UFu-aD-j6F"/>
+                            <constraint firstItem="uE8-zp-TaJ" firstAttribute="trailing" secondItem="q8k-Nk-qFf" secondAttribute="trailing" id="ZGS-ba-iFw"/>
+                            <constraint firstItem="SIx-mw-d9F" firstAttribute="centerY" secondItem="czL-fW-4zv" secondAttribute="centerY" id="uFa-mc-e7o"/>
+                            <constraint firstItem="q8k-Nk-qFf" firstAttribute="bottom" secondItem="w1h-Zr-xZ9" secondAttribute="bottom" constant="10" id="v21-I8-gSH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionV" destination="w1h-Zr-xZ9" id="riH-eI-QiB"/>
+                        <outlet property="customView" destination="uE8-zp-TaJ" id="VNv-Cw-t41"/>
+                        <outlet property="noPreReqLbl" destination="SIx-mw-d9F" id="EU2-al-pFZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3bI-Hu-G5L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4057" y="3478"/>
+        </scene>
+    </scenes>
+</document>

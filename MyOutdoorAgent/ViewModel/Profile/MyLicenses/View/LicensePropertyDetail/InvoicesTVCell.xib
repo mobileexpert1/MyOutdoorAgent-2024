@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="nunito-sans.regular.ttf">
+            <string>NunitoSans-Regular</string>
+        </array>
+        <array key="nunito-sans.semibold.ttf">
+            <string>NunitoSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="InvoicesTVCell" rowHeight="90" id="KGk-i7-Jjw" customClass="InvoicesTVCell" customModule="MyOutdoorAgent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W0W-Fc-lDH">
+                        <rect key="frame" x="0.0" y="5" width="320" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invoice Type" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rns-s3-WYU" userLabel="Make">
+                                <rect key="frame" x="10" y="10" width="79" height="19.5"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="121" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QVI-gT-RPq">
+                                <rect key="frame" x="119" y="10" width="25.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="14"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gf-7n-D0c" userLabel="Make">
+                                <rect key="frame" x="10" y="31.5" width="51.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="121" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhO-5i-sID">
+                                <rect key="frame" x="119" y="31.5" width="25.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="14"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eo4-My-c42" userLabel="Make">
+                                <rect key="frame" x="10" y="53" width="41" height="19.5"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L0w-Dt-coF">
+                                <rect key="frame" x="119" y="53" width="80" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay Now" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdl-cS-Kd0">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="14"/>
+                                        <color key="textColor" red="0.11869417879999999" green="0.72711688279999998" blue="0.49750220779999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="18"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="D66-CX-GNj">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="25"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="80" id="FsD-N3-0wa">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="120"/>
+                                    </constraint>
+                                    <constraint firstItem="sdl-cS-Kd0" firstAttribute="centerY" secondItem="L0w-Dt-coF" secondAttribute="centerY" id="GlU-RU-Yuc"/>
+                                    <constraint firstAttribute="trailing" secondItem="sdl-cS-Kd0" secondAttribute="trailing" id="dCW-ff-TZe"/>
+                                    <constraint firstItem="sdl-cS-Kd0" firstAttribute="leading" secondItem="L0w-Dt-coF" secondAttribute="leading" id="iiO-Xv-Swh"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AhO-5i-sID" firstAttribute="top" secondItem="8gf-7n-D0c" secondAttribute="top" id="5bH-el-uhi"/>
+                            <constraint firstItem="L0w-Dt-coF" firstAttribute="leading" secondItem="AhO-5i-sID" secondAttribute="leading" id="5o4-Lh-whI"/>
+                            <constraint firstItem="QVI-gT-RPq" firstAttribute="top" secondItem="Rns-s3-WYU" secondAttribute="top" id="8bS-VF-TNn"/>
+                            <constraint firstItem="Eo4-My-c42" firstAttribute="top" secondItem="8gf-7n-D0c" secondAttribute="bottom" constant="2" id="fQp-W8-YWD"/>
+                            <constraint firstItem="8gf-7n-D0c" firstAttribute="leading" secondItem="Rns-s3-WYU" secondAttribute="leading" id="gPz-oZ-vBT"/>
+                            <constraint firstItem="QVI-gT-RPq" firstAttribute="leading" secondItem="Rns-s3-WYU" secondAttribute="trailing" constant="30" id="hik-WC-tms"/>
+                            <constraint firstItem="Rns-s3-WYU" firstAttribute="top" secondItem="W0W-Fc-lDH" secondAttribute="top" constant="10" id="j8K-fs-Wj2"/>
+                            <constraint firstItem="L0w-Dt-coF" firstAttribute="centerY" secondItem="Eo4-My-c42" secondAttribute="centerY" id="leL-So-Mpa"/>
+                            <constraint firstItem="AhO-5i-sID" firstAttribute="leading" secondItem="QVI-gT-RPq" secondAttribute="leading" id="lgS-lI-W0n"/>
+                            <constraint firstItem="Eo4-My-c42" firstAttribute="leading" secondItem="8gf-7n-D0c" secondAttribute="leading" id="s1M-Ny-T0H"/>
+                            <constraint firstItem="Rns-s3-WYU" firstAttribute="leading" secondItem="W0W-Fc-lDH" secondAttribute="leading" constant="10" id="wdU-d8-Npa"/>
+                            <constraint firstItem="8gf-7n-D0c" firstAttribute="top" secondItem="Rns-s3-WYU" secondAttribute="bottom" constant="2" id="yXP-iE-50n"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.29999999999999999"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="W0W-Fc-lDH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="5cR-r8-dpw"/>
+                    <constraint firstAttribute="bottom" secondItem="W0W-Fc-lDH" secondAttribute="bottom" constant="5" id="9V6-eL-Eci"/>
+                    <constraint firstItem="W0W-Fc-lDH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ckQ-4W-0DZ"/>
+                    <constraint firstAttribute="trailing" secondItem="W0W-Fc-lDH" secondAttribute="trailing" id="l2H-CP-hJ3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="amountLbl" destination="AhO-5i-sID" id="coh-zN-2Pu"/>
+                <outlet property="invoiceTypeLbl" destination="QVI-gT-RPq" id="r7e-pr-DLR"/>
+                <outlet property="payLbl" destination="sdl-cS-Kd0" id="3m8-GD-T3t"/>
+                <outlet property="payView" destination="L0w-Dt-coF" id="XeQ-7C-PIa"/>
+            </connections>
+            <point key="canvasLocation" x="133.33333333333334" y="84.375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

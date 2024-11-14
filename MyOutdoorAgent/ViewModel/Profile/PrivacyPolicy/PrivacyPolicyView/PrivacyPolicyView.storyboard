@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Privacy PolicyVC-->
+        <scene sceneID="tHb-4D-Lxp">
+            <objects>
+                <viewController storyboardIdentifier="PrivacyPolicyVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GFZ-eD-g8V" customClass="PrivacyPolicyVC" customModule="MyOutdoorAgent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jhg-47-OmJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ftN-uG-66a" customClass="CustomNavBar" customModule="MyOutdoorAgent" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="tFD-Et-eUg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ya-WU-46u">
+                                <rect key="frame" x="0.0" y="94" width="414" height="768"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Pea-rp-5RO">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <color key="color" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ISt-8y-Jy1"/>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pea-rp-5RO" firstAttribute="centerX" secondItem="Jhg-47-OmJ" secondAttribute="centerX" id="9pP-nX-6Um"/>
+                            <constraint firstItem="ISt-8y-Jy1" firstAttribute="trailing" secondItem="ftN-uG-66a" secondAttribute="trailing" id="GUe-MO-yAb"/>
+                            <constraint firstItem="ISt-8y-Jy1" firstAttribute="trailing" secondItem="8ya-WU-46u" secondAttribute="trailing" id="OWO-FZ-lMH"/>
+                            <constraint firstItem="8ya-WU-46u" firstAttribute="top" secondItem="ftN-uG-66a" secondAttribute="bottom" id="Orj-NS-qrV"/>
+                            <constraint firstItem="8ya-WU-46u" firstAttribute="leading" secondItem="ISt-8y-Jy1" secondAttribute="leading" id="djD-Qf-wnh"/>
+                            <constraint firstItem="ftN-uG-66a" firstAttribute="leading" secondItem="Jhg-47-OmJ" secondAttribute="leading" id="fxP-A2-gFZ"/>
+                            <constraint firstItem="ftN-uG-66a" firstAttribute="top" secondItem="ISt-8y-Jy1" secondAttribute="top" id="irv-rK-de2"/>
+                            <constraint firstItem="Pea-rp-5RO" firstAttribute="centerY" secondItem="Jhg-47-OmJ" secondAttribute="centerY" id="jDo-Tu-IZW"/>
+                            <constraint firstItem="ISt-8y-Jy1" firstAttribute="bottom" secondItem="8ya-WU-46u" secondAttribute="bottom" id="loO-Y3-1Yd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicatorV" destination="Pea-rp-5RO" id="ihw-Z8-weU"/>
+                        <outlet property="customNavV" destination="ftN-uG-66a" id="5tx-2m-orv"/>
+                        <outlet property="privacyPolicyV" destination="8ya-WU-46u" id="trh-Mn-Wa7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BUC-ua-MTE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4389.6000000000004" y="196.55172413793105"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="nunito-sans.semibold.ttf">
+            <string>NunitoSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InviteMemberCVCell" id="gTV-IL-0wX" customClass="InviteMemberCVCell" customModule="MyOutdoorAgent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="116" height="25"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="116" height="25"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ypd-rk-OFR">
+                        <rect key="frame" x="2" y="2" width="112" height="21"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNc-6n-G1Q">
+                                <rect key="frame" x="34.5" y="1.5" width="32" height="18"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="17"/>
+                                </variation>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cross" translatesAutoresizingMaskIntoConstraints="NO" id="1x5-IF-cI5">
+                                <rect key="frame" x="87" y="0.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="HhS-Mg-KJy"/>
+                                    <constraint firstAttribute="width" constant="20" id="qg3-gY-UPd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60392156862745094" green="0.88235294117647056" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lNc-6n-G1Q" firstAttribute="centerX" secondItem="ypd-rk-OFR" secondAttribute="centerX" multiplier="0.9" id="GKM-yJ-t6M"/>
+                            <constraint firstItem="lNc-6n-G1Q" firstAttribute="centerY" secondItem="ypd-rk-OFR" secondAttribute="centerY" id="HXx-S6-r5S"/>
+                            <constraint firstAttribute="trailing" secondItem="1x5-IF-cI5" secondAttribute="trailing" constant="5" id="U59-ig-WMZ"/>
+                            <constraint firstItem="1x5-IF-cI5" firstAttribute="centerY" secondItem="ypd-rk-OFR" secondAttribute="centerY" id="mn5-Ty-l4S"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ypd-rk-OFR" secondAttribute="bottom" constant="2" id="ElR-wc-I9l"/>
+                <constraint firstItem="ypd-rk-OFR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="Mft-GU-IAh"/>
+                <constraint firstAttribute="trailing" secondItem="ypd-rk-OFR" secondAttribute="trailing" constant="2" id="afR-8B-G29"/>
+                <constraint firstItem="ypd-rk-OFR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="zQ3-rH-J8h"/>
+            </constraints>
+            <size key="customSize" width="116" height="24"/>
+            <connections>
+                <outlet property="crossV" destination="1x5-IF-cI5" id="IRx-a2-0FS"/>
+                <outlet property="memberLbl" destination="lNc-6n-G1Q" id="ct7-uW-uVN"/>
+                <outlet property="memberV" destination="ypd-rk-OFR" id="48Y-Xh-Jkp"/>
+            </connections>
+            <point key="canvasLocation" x="179.71014492753625" y="60.9375"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cross" width="16.5" height="16.5"/>
+    </resources>
+</document>

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D1CBBFEA-3164-40DF-8DE7-475EC2D10384"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BA3B53F-61D6-4F36-BF5E-CFB6633EA8F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Profile/Profile/MyAccount/MyAccount/View/MyAccountView/CustomDeleteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "btnCancel(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7BA3B53F-61D6-4F36-BF5E-CFB6633EA8F9 - f7aa16fad921761b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MyOutdoorAgent.SearchAutoFillModelClass&gt;) -&gt; () in MyOutdoorAgent.CustomDeleteView.btnCancel(Any) -&gt; ()"
+                  moduleName = "MyOutdoorAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pritish/Downloads/MyOutdoorAgent-main-2%204/MyOutdoorAgent/ViewModel/Profile/Profile/MyAccount/MyAccount/View/MyAccountView/CustomDeleteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "7BA3B53F-61D6-4F36-BF5E-CFB6633EA8F9 - f7aa16fad921763a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MyOutdoorAgent.SearchAutoFillModelClass&gt;) -&gt; () in MyOutdoorAgent.CustomDeleteView.btnCancel(Any) -&gt; ()"
+                  moduleName = "MyOutdoorAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pritish/Downloads/MyOutdoorAgent-main-2%204/MyOutdoorAgent/ViewModel/Profile/Profile/MyAccount/MyAccount/View/MyAccountView/CustomDeleteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FA2FF6F-9362-475A-967E-FAD8D50B842E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Profile/Profile/MyAccount/MyAccount/View/MyAccountView/CustomDeleteView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "btnCancel(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7FA2FF6F-9362-475A-967E-FAD8D50B842E - 28100a71f7c75568"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyOutdoorAgent.CustomDeleteView.btnCancel(Any) -&gt; ()"
+                  moduleName = "MyOutdoorAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pritish/Downloads/MyOutdoorAgent-main-2%204/MyOutdoorAgent/ViewModel/Profile/Profile/MyAccount/MyAccount/View/MyAccountView/CustomDeleteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  uuid = "7FA2FF6F-9362-475A-967E-FAD8D50B842E - f7aa16fad921761b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MyOutdoorAgent.SearchAutoFillModelClass&gt;) -&gt; () in MyOutdoorAgent.CustomDeleteView.btnCancel(Any) -&gt; ()"
+                  moduleName = "MyOutdoorAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pritish/Downloads/MyOutdoorAgent-main-2%204/MyOutdoorAgent/ViewModel/Profile/Profile/MyAccount/MyAccount/View/MyAccountView/CustomDeleteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "7FA2FF6F-9362-475A-967E-FAD8D50B842E - 28100a71f7c7550b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyOutdoorAgent.CustomDeleteView.btnCancel(Any) -&gt; ()"
+                  moduleName = "MyOutdoorAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pritish/Downloads/MyOutdoorAgent-main-2%204/MyOutdoorAgent/ViewModel/Profile/Profile/MyAccount/MyAccount/View/MyAccountView/CustomDeleteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  uuid = "7FA2FF6F-9362-475A-967E-FAD8D50B842E - f7aa16fad921763a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MyOutdoorAgent.SearchAutoFillModelClass&gt;) -&gt; () in MyOutdoorAgent.CustomDeleteView.btnCancel(Any) -&gt; ()"
+                  moduleName = "MyOutdoorAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pritish/Downloads/MyOutdoorAgent-main-2%204/MyOutdoorAgent/ViewModel/Profile/Profile/MyAccount/MyAccount/View/MyAccountView/CustomDeleteView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F027A5D4-0D17-4C6F-97EA-C4EC6C95F417"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "deleteAccountApi(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6256DD49-381A-4670-82FA-BD49E823FB0C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "deleteAccountApi(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6256DD49-381A-4670-82FA-BD49E823FB0C - 94c9bb600c09e503"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyOutdoorAgent.HomeViewModel.deleteAccountApi(_: __C.UIView, completion: (Swift.Array&lt;MyOutdoorAgent.SearchAutoFillModelClass&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MyOutdoorAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pritish/Downloads/MyOutdoorAgent-main-2%204/MyOutdoorAgent/ViewModel/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "6256DD49-381A-4670-82FA-BD49E823FB0C - 4cc039c5016072ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MyOutdoorAgent.SearchAutoFillModel) -&gt; () in MyOutdoorAgent.HomeViewModel.deleteAccountApi(_: __C.UIView, completion: (Swift.Array&lt;MyOutdoorAgent.SearchAutoFillModelClass&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MyOutdoorAgent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pritish/Downloads/MyOutdoorAgent-main-2%204/MyOutdoorAgent/ViewModel/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "77">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2207431A-1BF0-4B44-9F53-169EB40BA032"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "logOutSuccessCalled()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF108E10-48DA-4C97-95C9-66B7C371A7F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "logOutSuccessCalled()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "872B5BD8-9D75-43C7-9695-C2173680E5F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "emptyLocalStore()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F89FC4A8-E7A8-4058-BEA0-BA9CA706321A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "goToLoginPage()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5CE6174-4C1F-499C-998C-0E05F010E0B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Login/Login/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "onViewLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B6253AD-A577-4502-B312-7510418A0550"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Login/Login/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D576FB2D-0E1B-4465-ACF6-530E120DA490"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Login/Login/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9E95360-1BC3-4A39-A872-33D852006A81"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Login/Login/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "onViewAppear()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78376853-8832-4C25-AE8E-9B90D5315028"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Login/Form/View/FormView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "onViewAppear()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9159561E-2FA0-4AAE-A76C-6FCB73B067A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Login/Form/View/FormView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "onViewAppear()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13BC8309-B32C-40F9-A92D-1124C07B9826"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Login/ForgotPassword/View/ForgotPassView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "actionBlock()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C02D1C1-9D27-4282-80EF-D98674CA694E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Profile/Profile/MyAccount/MyAccount/View/MyAccountVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "setViewUserProfileApi()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F86A672C-0748-40EE-B057-7125A0278F9C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Profile/Profile/MyAccount/MyAccount/View/MyAccountVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "setValueLocally()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "150E4C9D-6B59-4093-A390-B7AAE0A383E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Profile/MyLicenses/View/LicensePropertyDetail/LicensePropertyDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "inviteMembersSuccessCalled()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E079BF62-0D69-4FBD-AB65-AFFFE8C21FF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Profile/MyLicenses/View/LicensePropertyDetail/LicensePropertyDetailCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
+            landmarkName = "setViewAction(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "018CE584-13C7-4592-9D89-20570F3CE678"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyOutdoorAgent/ViewModel/Profile/ContactUs/View/ContactUsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

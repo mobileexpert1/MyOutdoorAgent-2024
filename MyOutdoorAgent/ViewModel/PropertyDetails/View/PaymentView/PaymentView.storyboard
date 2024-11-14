@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PaymentVC-->
+        <scene sceneID="0ML-tJ-ppt">
+            <objects>
+                <viewController storyboardIdentifier="PaymentVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hV5-GK-sQ2" customClass="PaymentVC" customModule="MyOutdoorAgent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yCb-UU-nKB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zWU-RT-gSO" customClass="CustomNavBar" customModule="MyOutdoorAgent" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="eRP-aO-HrT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q4s-kn-tDa">
+                                <rect key="frame" x="0.0" y="94" width="414" height="768"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="pHm-Jy-7zY">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tCI-Yi-RXt"/>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="pHm-Jy-7zY" firstAttribute="centerX" secondItem="yCb-UU-nKB" secondAttribute="centerX" id="0Jb-lQ-WeH"/>
+                            <constraint firstItem="zWU-RT-gSO" firstAttribute="trailing" secondItem="tCI-Yi-RXt" secondAttribute="trailing" id="FK3-1q-c9g"/>
+                            <constraint firstItem="tCI-Yi-RXt" firstAttribute="trailing" secondItem="Q4s-kn-tDa" secondAttribute="trailing" id="Zp6-qz-5wp"/>
+                            <constraint firstItem="zWU-RT-gSO" firstAttribute="leading" secondItem="tCI-Yi-RXt" secondAttribute="leading" id="eh4-TO-dfh"/>
+                            <constraint firstItem="Q4s-kn-tDa" firstAttribute="leading" secondItem="tCI-Yi-RXt" secondAttribute="leading" id="giJ-fA-2Rh"/>
+                            <constraint firstItem="zWU-RT-gSO" firstAttribute="top" secondItem="tCI-Yi-RXt" secondAttribute="top" id="i5c-Zv-beq"/>
+                            <constraint firstItem="Q4s-kn-tDa" firstAttribute="top" secondItem="zWU-RT-gSO" secondAttribute="bottom" id="qhN-Ty-rU1"/>
+                            <constraint firstItem="pHm-Jy-7zY" firstAttribute="centerY" secondItem="yCb-UU-nKB" secondAttribute="centerY" id="xE0-iE-WEQ"/>
+                            <constraint firstItem="tCI-Yi-RXt" firstAttribute="bottom" secondItem="Q4s-kn-tDa" secondAttribute="bottom" id="zWg-Gw-mxR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityV" destination="pHm-Jy-7zY" id="fco-eO-apD"/>
+                        <outlet property="customNavView" destination="zWU-RT-gSO" id="QOU-ih-jBW"/>
+                        <outlet property="paymentV" destination="Q4s-kn-tDa" id="Vxo-kI-bf0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ck-6z-4XT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5673" y="1573"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

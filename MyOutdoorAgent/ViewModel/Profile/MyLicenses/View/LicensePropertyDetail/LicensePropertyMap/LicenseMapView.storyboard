@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="nunito-sans.regular.ttf">
+            <string>NunitoSans-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--License MapVC-->
+        <scene sceneID="yQc-K2-ce1">
+            <objects>
+                <viewController storyboardIdentifier="LicenseMapVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="C0t-w2-4ko" customClass="LicenseMapVC" customModule="MyOutdoorAgent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gac-vE-Kk2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R0n-D8-GWJ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="f06-HY-Ilg">
+                                        <rect key="frame" x="15" y="14" width="22" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="F3h-an-vau">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="26"/>
+                                            </constraint>
+                                            <constraint firstAttribute="width" constant="22" id="TE0-M3-eat">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="26"/>
+                                            </constraint>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property Maps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WhP-S6-4fg">
+                                        <rect key="frame" x="141" y="11.5" width="132" height="27.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="24"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="f06-HY-Ilg" firstAttribute="leading" secondItem="R0n-D8-GWJ" secondAttribute="leading" constant="15" id="2rD-gT-kNy"/>
+                                    <constraint firstItem="WhP-S6-4fg" firstAttribute="centerY" secondItem="R0n-D8-GWJ" secondAttribute="centerY" id="HCq-BN-Pd3"/>
+                                    <constraint firstItem="f06-HY-Ilg" firstAttribute="centerY" secondItem="R0n-D8-GWJ" secondAttribute="centerY" id="X4g-VT-d1g"/>
+                                    <constraint firstAttribute="height" constant="50" id="dzF-WP-Vnr"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="tEa-Di-z0d"/>
+                                    <constraint firstItem="WhP-S6-4fg" firstAttribute="centerX" secondItem="R0n-D8-GWJ" secondAttribute="centerX" id="x71-yT-Viu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8a-9H-TVB">
+                                <rect key="frame" x="0.0" y="94" width="414" height="768"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="OXb-Kv-I0F">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RXf-P3-xiw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OXb-Kv-I0F" firstAttribute="centerX" secondItem="gac-vE-Kk2" secondAttribute="centerX" id="1CZ-fM-PiB"/>
+                            <constraint firstItem="R0n-D8-GWJ" firstAttribute="top" secondItem="RXf-P3-xiw" secondAttribute="top" id="41C-r8-hg2"/>
+                            <constraint firstItem="RXf-P3-xiw" firstAttribute="trailing" secondItem="E8a-9H-TVB" secondAttribute="trailing" id="5HA-IN-GX5"/>
+                            <constraint firstItem="RXf-P3-xiw" firstAttribute="bottom" secondItem="E8a-9H-TVB" secondAttribute="bottom" id="QYy-nX-JhV"/>
+                            <constraint firstItem="R0n-D8-GWJ" firstAttribute="leading" secondItem="RXf-P3-xiw" secondAttribute="leading" id="Ved-R5-iF7"/>
+                            <constraint firstItem="R0n-D8-GWJ" firstAttribute="trailing" secondItem="RXf-P3-xiw" secondAttribute="trailing" id="hMi-qc-RiA"/>
+                            <constraint firstItem="E8a-9H-TVB" firstAttribute="top" secondItem="R0n-D8-GWJ" secondAttribute="bottom" id="k1E-0I-cCD"/>
+                            <constraint firstItem="E8a-9H-TVB" firstAttribute="leading" secondItem="RXf-P3-xiw" secondAttribute="leading" id="nGY-dQ-TrY"/>
+                            <constraint firstItem="OXb-Kv-I0F" firstAttribute="centerY" secondItem="gac-vE-Kk2" secondAttribute="centerY" id="qTL-U6-CeE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityV" destination="OXb-Kv-I0F" id="kB3-cp-ka2"/>
+                        <outlet property="backBtn" destination="f06-HY-Ilg" id="1ck-7b-OvR"/>
+                        <outlet property="mapView" destination="E8a-9H-TVB" id="K3L-Ro-gnr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8DS-Ts-M8j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1" y="1504"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="8.5" height="14.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

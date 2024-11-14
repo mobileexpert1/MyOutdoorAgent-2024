@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="nunito-sans.regular.ttf">
+            <string>NunitoSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="120" id="laN-JD-WMi" customClass="MessageTableViewCell" customModule="MyOutdoorAgent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="laN-JD-WMi" id="pBv-d0-9qc">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fkl-x1-Y3I">
+                        <rect key="frame" x="10" y="10" width="20" height="72.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4E-KL-BXa">
+                                <rect key="frame" x="10" y="10" width="0.0" height="52.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="UnP-tU-7Km"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="19"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81960784313725488" green="0.95686274509803915" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="D4E-KL-BXa" firstAttribute="leading" secondItem="Fkl-x1-Y3I" secondAttribute="leading" constant="10" id="2Z3-rY-amQ"/>
+                            <constraint firstItem="D4E-KL-BXa" firstAttribute="top" secondItem="Fkl-x1-Y3I" secondAttribute="top" constant="10" id="5XK-ae-kUf"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="72.5" id="BlK-HF-06l"/>
+                            <constraint firstAttribute="trailing" secondItem="D4E-KL-BXa" secondAttribute="trailing" constant="10" id="LgT-9W-JeQ"/>
+                            <constraint firstAttribute="bottom" secondItem="D4E-KL-BXa" secondAttribute="bottom" constant="10" id="S1Y-4J-a6g"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 Dec 2019" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7H-na-sc2">
+                        <rect key="frame" x="10" y="87.5" width="70.5" height="13"/>
+                        <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="16"/>
+                        </variation>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="q7H-na-sc2" secondAttribute="bottom" constant="10.5" id="G9A-DW-eO8"/>
+                    <constraint firstItem="Fkl-x1-Y3I" firstAttribute="leading" secondItem="pBv-d0-9qc" secondAttribute="leading" constant="10" id="PT0-FF-Jx5"/>
+                    <constraint firstItem="q7H-na-sc2" firstAttribute="top" secondItem="Fkl-x1-Y3I" secondAttribute="bottom" constant="5" id="ZfT-Mg-7rp"/>
+                    <constraint firstItem="Fkl-x1-Y3I" firstAttribute="top" secondItem="pBv-d0-9qc" secondAttribute="top" constant="10" id="lQi-OC-5vl"/>
+                    <constraint firstItem="q7H-na-sc2" firstAttribute="leading" secondItem="Fkl-x1-Y3I" secondAttribute="leading" id="p77-T2-3WS"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Fkl-x1-Y3I" secondAttribute="trailing" constant="50" id="ymu-a0-T8V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="VNP-iq-cdH"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblDate" destination="q7H-na-sc2" id="eoh-2C-X8R"/>
+                <outlet property="lblMessage" destination="D4E-KL-BXa" id="uJe-al-bfS"/>
+                <outlet property="viewContainer" destination="Fkl-x1-Y3I" id="Vea-cz-iRi"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="148.32589285714286"/>
+        </tableViewCell>
+    </objects>
+</document>

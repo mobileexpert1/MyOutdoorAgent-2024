@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="nunito-sans.regular.ttf">
+            <string>NunitoSans-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--FaqVC-->
+        <scene sceneID="m3Z-kJ-CNj">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nSE-Jd-U5v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="FaqVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GYF-nJ-lts" customClass="FaqVC" customModule="MyOutdoorAgent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fTZ-Rl-5D8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mPo-NR-CPK" customClass="CustomNavBar" customModule="MyOutdoorAgent" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="j1K-zk-SEy"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frequently Asked Questions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KfC-TN-QiT">
+                                <rect key="frame" x="75" y="124" width="264" height="29"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="25"/>
+                                </variation>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="50" estimatedSectionHeaderHeight="-1" sectionFooterHeight="10" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="USD-f2-raf">
+                                <rect key="frame" x="20" y="173" width="374" height="689"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="GYF-nJ-lts" id="Sss-Dz-brT"/>
+                                    <outlet property="delegate" destination="GYF-nJ-lts" id="tLT-T5-GMH"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jex-VG-bie"/>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="USD-f2-raf" firstAttribute="leading" secondItem="jex-VG-bie" secondAttribute="leading" constant="20" id="2GQ-uv-9Lg"/>
+                            <constraint firstItem="jex-VG-bie" firstAttribute="trailing" secondItem="USD-f2-raf" secondAttribute="trailing" constant="20" id="JoM-yH-Y9W"/>
+                            <constraint firstItem="mPo-NR-CPK" firstAttribute="trailing" secondItem="jex-VG-bie" secondAttribute="trailing" id="KV3-0f-oUJ"/>
+                            <constraint firstItem="KfC-TN-QiT" firstAttribute="top" secondItem="mPo-NR-CPK" secondAttribute="bottom" constant="30" id="a6h-Pj-vwc"/>
+                            <constraint firstItem="USD-f2-raf" firstAttribute="top" secondItem="KfC-TN-QiT" secondAttribute="bottom" constant="20" id="aAF-si-esf">
+                                <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                            </constraint>
+                            <constraint firstItem="mPo-NR-CPK" firstAttribute="top" secondItem="jex-VG-bie" secondAttribute="top" id="ggK-oa-4cA"/>
+                            <constraint firstItem="KfC-TN-QiT" firstAttribute="centerX" secondItem="fTZ-Rl-5D8" secondAttribute="centerX" id="ngo-EI-fB4"/>
+                            <constraint firstItem="USD-f2-raf" firstAttribute="bottom" secondItem="jex-VG-bie" secondAttribute="bottom" id="qu1-dg-Jeg"/>
+                            <constraint firstItem="mPo-NR-CPK" firstAttribute="leading" secondItem="jex-VG-bie" secondAttribute="leading" id="w8E-Yz-NYd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="customNavBar" destination="mPo-NR-CPK" id="rtc-wp-hoh"/>
+                        <outlet property="tableV" destination="USD-f2-raf" id="gOq-b0-Jha"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="4687" y="4128"/>
+        </scene>
+    </scenes>
+</document>

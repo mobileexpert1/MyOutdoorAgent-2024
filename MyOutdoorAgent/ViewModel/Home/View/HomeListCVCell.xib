@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="nunito-sans.regular.ttf">
+            <string>NunitoSans-Regular</string>
+        </array>
+        <array key="nunito-sans.semibold.ttf">
+            <string>NunitoSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeListCVCell" id="gTV-IL-0wX" customClass="HomeListCVCell" customModule="MyOutdoorAgent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="312" height="267"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="312" height="267"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hvq-hs-EDt">
+                        <rect key="frame" x="0.0" y="0.0" width="312" height="267"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CBZ-BI-sGG">
+                                <rect key="frame" x="0.0" y="0.0" width="312" height="214"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHF-MP-l5a">
+                                        <rect key="frame" x="0.0" y="0.0" width="312" height="176"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_img" translatesAutoresizingMaskIntoConstraints="NO" id="U13-sA-3Ob">
+                                                <rect key="frame" x="0.0" y="0.0" width="312" height="176"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="U13-sA-3Ob" firstAttribute="height" secondItem="PHF-MP-l5a" secondAttribute="height" id="4nz-EQ-SSe"/>
+                                            <constraint firstItem="U13-sA-3Ob" firstAttribute="centerY" secondItem="PHF-MP-l5a" secondAttribute="centerY" id="IWA-j6-OwD"/>
+                                            <constraint firstItem="U13-sA-3Ob" firstAttribute="width" secondItem="PHF-MP-l5a" secondAttribute="width" id="PjC-x9-Cfn"/>
+                                            <constraint firstItem="U13-sA-3Ob" firstAttribute="centerX" secondItem="PHF-MP-l5a" secondAttribute="centerX" id="fE5-we-ZCR"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cass ,Taxas" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fN-Sh-odb">
+                                        <rect key="frame" x="0.0" y="181" width="312" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="BEp-lo-NJ7">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="15"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="20"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NFS - WH0013" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgM-dk-rgy">
+                                        <rect key="frame" x="0.0" y="199" width="312" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="Nl5-8f-8Y2">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="15"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="14"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="18"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="PHF-MP-l5a" firstAttribute="top" secondItem="CBZ-BI-sGG" secondAttribute="top" id="1ll-La-Oza"/>
+                                    <constraint firstAttribute="trailing" secondItem="PHF-MP-l5a" secondAttribute="trailing" id="9Fj-pA-3Ie"/>
+                                    <constraint firstItem="PHF-MP-l5a" firstAttribute="leading" secondItem="CBZ-BI-sGG" secondAttribute="leading" id="ENt-IB-2PS"/>
+                                    <constraint firstAttribute="trailing" secondItem="MgM-dk-rgy" secondAttribute="trailing" id="Hmb-gj-4YQ"/>
+                                    <constraint firstItem="MgM-dk-rgy" firstAttribute="leading" secondItem="6fN-Sh-odb" secondAttribute="leading" id="fL4-6g-8eZ"/>
+                                    <constraint firstItem="6fN-Sh-odb" firstAttribute="leading" secondItem="CBZ-BI-sGG" secondAttribute="leading" id="fvj-3i-f8k"/>
+                                    <constraint firstAttribute="bottom" secondItem="MgM-dk-rgy" secondAttribute="bottom" id="lfO-on-7eS"/>
+                                    <constraint firstItem="6fN-Sh-odb" firstAttribute="top" secondItem="PHF-MP-l5a" secondAttribute="bottom" constant="5" id="lvo-iA-hDf">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                                    </constraint>
+                                    <constraint firstItem="MgM-dk-rgy" firstAttribute="top" secondItem="6fN-Sh-odb" secondAttribute="bottom" constant="3" id="m4v-D8-e9C">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="8"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="6fN-Sh-odb" secondAttribute="trailing" id="o2V-7h-H17"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FT1-fV-2l6">
+                                <rect key="frame" x="2" y="222" width="308" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sB-iW-BBa">
+                                        <rect key="frame" x="114" y="10.5" width="80" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="NunitoSans-SemiBold" family="Nunito Sans" pointSize="20"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.11869417879999999" green="0.72711688279999998" blue="0.49750220779999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="LRS-Yf-ZsB">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                    </constraint>
+                                    <constraint firstItem="4sB-iW-BBa" firstAttribute="centerX" secondItem="FT1-fV-2l6" secondAttribute="centerX" id="WmN-h3-i8G"/>
+                                    <constraint firstItem="4sB-iW-BBa" firstAttribute="centerY" secondItem="FT1-fV-2l6" secondAttribute="centerY" id="uNe-i2-KWo"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.12941176469999999" green="0.68235294120000001" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CBZ-BI-sGG" secondAttribute="trailing" id="9pg-ZA-fSS"/>
+                            <constraint firstAttribute="trailing" secondItem="FT1-fV-2l6" secondAttribute="trailing" constant="2" id="MCN-9h-R0t"/>
+                            <constraint firstItem="FT1-fV-2l6" firstAttribute="leading" secondItem="Hvq-hs-EDt" secondAttribute="leading" constant="2" id="Q5S-le-vpk"/>
+                            <constraint firstItem="CBZ-BI-sGG" firstAttribute="top" secondItem="Hvq-hs-EDt" secondAttribute="top" id="YJU-qg-D9S"/>
+                            <constraint firstItem="FT1-fV-2l6" firstAttribute="top" secondItem="CBZ-BI-sGG" secondAttribute="bottom" constant="8" id="hpk-Hb-hWC"/>
+                            <constraint firstItem="CBZ-BI-sGG" firstAttribute="leading" secondItem="Hvq-hs-EDt" secondAttribute="leading" id="l2t-AG-ruP"/>
+                            <constraint firstAttribute="bottom" secondItem="FT1-fV-2l6" secondAttribute="bottom" constant="5" id="rN2-h1-rP0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Hvq-hs-EDt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="BDB-a2-rEA"/>
+                <constraint firstAttribute="trailing" secondItem="Hvq-hs-EDt" secondAttribute="trailing" id="ZgV-go-3Mx"/>
+                <constraint firstAttribute="bottom" secondItem="Hvq-hs-EDt" secondAttribute="bottom" id="jW0-hL-JI4"/>
+                <constraint firstItem="Hvq-hs-EDt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rsH-kJ-zBU"/>
+            </constraints>
+            <size key="customSize" width="283" height="234"/>
+            <connections>
+                <outlet property="displayNameLbl" destination="6fN-Sh-odb" id="UBF-cc-u52"/>
+                <outlet property="locationLbl" destination="MgM-dk-rgy" id="CM7-48-nXK"/>
+                <outlet property="regionImgV" destination="U13-sA-3Ob" id="FF4-l4-MMd"/>
+                <outlet property="regionNameHeight" destination="BEp-lo-NJ7" id="vh6-2P-4r6"/>
+                <outlet property="viewDetailsV" destination="FT1-fV-2l6" id="VXf-bO-IEa"/>
+            </connections>
+            <point key="canvasLocation" x="300" y="141.62946428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="logo_img" width="222" height="179.5"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
