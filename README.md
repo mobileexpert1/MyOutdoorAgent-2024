@@ -1,1 +1,2 @@
-# MyOutdoorAgent-2024
+# MyOutdoorAgent
+MyOutdoorAgent for iOS Application
